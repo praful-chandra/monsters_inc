@@ -1,0 +1,31 @@
+.contentWrapper{
+    padding: 2rem 0;
+    width: 95vw;
+    // background-color: rgb(153, 153, 153);
+    margin:3rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,40rem);
+    grid-gap: 3rem 3rem;
+    justify-content: space-around;
+    
+}
+
+.monsterCard{
+
+    border-radius: 40px;
+    background-color: #0ba6c9;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    border: 3px solid #fff;
+
+    &:hover{
+        border: 1px solid #eee;
+        box-shadow: 10px 10px 40px  rgb(114, 114, 114);
+    }
+}
